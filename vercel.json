@@ -1,18 +1,9 @@
 {
   "version": 2,
-  "name": "audience-reader-api",
   "functions": {
     "api/**/*.js": {
       "runtime": "nodejs18.x"
     }
-  },
-  "env": {
-    "SNOWFLAKE_ACCOUNT": "@snowflake_account",
-    "SNOWFLAKE_USERNAME": "@snowflake_username", 
-    "SNOWFLAKE_PASSWORD": "@snowflake_password",
-    "SNOWFLAKE_WAREHOUSE": "@snowflake_warehouse",
-    "SNOWFLAKE_DATABASE": "@snowflake_database",
-    "SNOWFLAKE_SCHEMA": "@snowflake_schema",
-    "SNOWFLAKE_ROLE": "@snowflake_role"
   }
 }
+
